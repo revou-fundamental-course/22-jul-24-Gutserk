@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelous</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="assets/logo.png" alt="Logo"> Travelous</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#packages">Our Package</a></li>
+                <li><a href="#contact">Call Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Title" class="title">
+        <h1>Your Trusted Travel Agent</h1>
+        <p>Your happiness is our happiness</p>
+    </section>
+
+    <section id="home" class="hero">
+        <div class="slider">
+            <div class="slides">
+                <img src="assets/bali.jpeg" alt="Slide 1">
+                <img src="assets/japan.jpeg" alt="Slide 2">
+                <img src="assets/singapore.jpeg" alt="Slide 3">
+            </div>
+            <article class="quotes">
+                "Traveling with Travelous was very enjoyable. They made everything easy and smooth."
+            </article>
+
+            <section class="testimonials">
+                <article class="profile">
+                    <img src="assets/Nightwing.jpeg" alt="Profile Picture">
+                    <div class="info">
+                        <h3>Mirza Ardanas</h3>
+                        <p>Aspiring Programmer.</p>
+                    </div>
+                </article>
+            </section>
+
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <p>Our sales team will contact you within 24 hours after receiving your data.</p>
+            <form id="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+                <span id="nameError"></span>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                <span id="emailError"></span>
+                
+                <label for="destination">What are you interested in?</label>
+                <select id="destination" name="destination" required>
+                    <option value="">Select a destination</option>
+                    <option value="bali">Bali</option>
+                    <option value="japan">Japan</option>
+                    <option value="singapore">Singapore</option>
+                </select>
+                
+                <button type="submit">Send</button>
+            </form>
+            
+        </div>
+    </section>
+    
+
+    <section class="features">
+        <p>Travelous offers you the best travel experiences, taking care of all the details so you can relax and enjoy your vacation.</p>
+        <ul>
+            <li>
+                <h3>1</h3>
+                <p>Comprehensive travel packages that cater to all your needs.</p>
+            </li>
+            <li>
+                <h3>2</h3>
+                <p>Expert guides and support throughout your journey.</p>
+            </li>
+            <li>
+                <h3>3</h3>
+                <p>Affordable prices without compromising on quality.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="packages">
+        <h2>Our Package</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="assets/bali.jpeg" alt="Bali">
+                <h3>Bali</h3>
+                <p>Experience the beauty of Bali with our exclusive packages. Enjoy cultural sites and culinary delights.</p>
+            </div>
+            <div class="card">
+                <img src="assets/japan.jpeg" alt="Japan">
+                <h3>Japan</h3>
+                <p>Discover the wonders of Japan. Visit historical landmarks and savor the local cuisine.</p>
+            </div>
+            <div class="card">
+                <img src="assets/singapore.jpeg" alt="Singapore">
+                <h3>Singapore</h3>
+                <p>Explore the vibrant city of Singapore. A perfect blend of modernity and tradition.</p>
+            </div>
+            <div class="card">
+                <img src="assets/bandung.jpeg" alt="Bandung">
+                <h3>Bandung</h3>
+                <p>Enjoy the cool climate and scenic landscapes of Bandung. Perfect for a relaxing getaway.</p>
+            </div>
+            <div class="card">
+                <img src="assets/surabaya.jpeg" alt="Surabaya">
+                <h3>Surabaya</h3>
+                <p>Discover the rich history and bustling city life of Surabaya.</p>
+            </div>
+            <div class="card">
+                <img src="assets/rusia.jpeg" alt="Rusia">
+                <h3>Rusia</h3>
+                <p>Unique travel experiences curated just for you.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="closing-argument">
+        <h2>Why Choose Travelous?</h2>
+        <p>Travelous is dedicated to providing exceptional travel services. We ensure your journey is memorable and hassle-free. Contact us today to start planning your dream vacation!</p>
+        <button>Contact Us Now</button>
+    </section>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
